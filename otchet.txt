@@ -1,0 +1,155 @@
+stude@WIN-2HGISQ1AVAL MINGW64 ~
+$ cd /c/777/
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/777
+$ pwd
+/c/777
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/777
+$ git config --global user.name "Карташова Виктория"
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/777
+$ git config --global user.email "donzovaola2007@gmail.com"
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/777
+$ pwd
+/c/777
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/777
+$ ls
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/777
+$ git init
+Initialized empty Git repository in C:/777/.git/
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/777 (master)
+$ ls
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/777 (master)
+$ ls -a
+./  ../  .git/
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/777 (master)
+$ cd /c/we/777/
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ pwd
+/c/we/777
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ ls
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ ls -a
+./  ../  .git/
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ git add README.txt
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.txt
+
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ git commit -m "Добавлен файл README"
+[master (root-commit) e9ce859] Добавлен файл README
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.txt
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ git add README.txt
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.txt
+
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ git commit -m "Изменения в README"
+[master fe13588] Изменения в README
+ 1 file changed, 1 insertion(+)
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ git log
+commit fe1358841bf0097970439fd51fc10df1db494911 (HEAD -> master)
+Author: Карташова Виктория <donzovaola2007@gmail.com>
+Date:   Wed Jan 21 00:22:54 2026 +0800
+
+    Изменения в README
+
+commit e9ce859a0df22fba577e627a62d5199e6febe7b6
+Author: Карташова Виктория <donzovaola2007@gmail.com>
+Date:   Wed Jan 21 00:20:43 2026 +0800
+
+    Добавлен файл README
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ git clone https://github.com/ViktoriaKartashova/GitMit.git 989
+Cloning into '989'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777 (master)
+$ cd /c/we/777/989/
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777/989 (main)
+$ git remote -v
+origin  https://github.com/ViktoriaKartashova/GitMit.git (fetch)
+origin  https://github.com/ViktoriaKartashova/GitMit.git (push)
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777/989 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777/989 (main)
+$
