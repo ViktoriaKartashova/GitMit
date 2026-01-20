@@ -152,4 +152,24 @@ Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
 
 stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777/989 (main)
+$git add otchet.txt
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777/989 (main)
+$ git commit -m "otchet"
+[main 43d6fe3] otchet
+ 1 file changed, 155 insertions(+)
+ create mode 100644 otchet.txt
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777/989 (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.37 KiB | 469.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ViktoriaKartashova/GitMit.git
+   6ce0754..43d6fe3  main -> main
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777/989 (main)
 $
