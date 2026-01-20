@@ -172,4 +172,55 @@ To https://github.com/ViktoriaKartashova/GitMit.git
    6ce0754..43d6fe3  main -> main
 
 stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777/989 (main)
+$  git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   otchet.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777/989 (main)
+$ git add otchet.txt
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777/989 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   otchet.txt
+
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777/989 (main)
+$ git commit -m "otchet izmen"
+[main b4206ca] otchet izmen
+ 1 file changed, 21 insertions(+), 1 deletion(-)
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777/989 (main)
+$ git log
+commit b4206ca90466c5b614d09925d236691574ea6f11 (HEAD -> main)
+Author: Карташова Виктория <donzovaola2007@gmail.com>
+Date:   Wed Jan 21 00:35:50 2026 +0800
+
+    otchet izmen
+
+commit 43d6fe3a2fc81a41bb7d992deea417c19ca79146 (origin/main, origin/HEAD)
+Author: Карташова Виктория <donzovaola2007@gmail.com>
+Date:   Wed Jan 21 00:29:26 2026 +0800
+
+    otchet
+
+commit 6ce0754d596c9a268b1c00cb0c78354e677b15d9
+Author: ViktoriaKartashova <donzovaola2007@gmail.com>
+Date:   Wed Jan 21 00:07:50 2026 +0800
+
+    Initial commit
+
+stude@WIN-2HGISQ1AVAL MINGW64 /c/we/777/989 (main)
 $
+
